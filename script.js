@@ -1,6 +1,6 @@
 // Immediately invoked function expression
 // to not pollute the global scope
-const wheel = document.querySelector('.wheel');
+
 
 (function() {
   const wheel = document.querySelector('.wheel');
@@ -18,6 +18,9 @@ const wheel = document.querySelector('.wheel');
     wheel.style.transform = `rotate(${deg}deg)`;
     // Apply the blur
     wheel.classList.add('blur');
+
+    
+    let arrCont = document.getElementById("array-container").append("["+`${generateArray().map(obj=>JSON.stringify(obj))}`+"]")
   });
 
   wheel.addEventListener('transitionend', () => {
@@ -35,4 +38,13 @@ const wheel = document.querySelector('.wheel');
     console.log(actualDeg)
     wheel.style.transform = `rotate(${actualDeg}deg)`;
   });
+
+  function generateArray(){
+    let rand = 10
+    while (rand >arrays.length)
+    { rand = Math.floor(Math.random()*10)
+      }
+      console.log("made it out: ", rand)
+    return arrays[rand]
+  }
 })();
