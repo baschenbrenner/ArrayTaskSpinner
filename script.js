@@ -1,8 +1,10 @@
 // Immediately invoked function expression
 // to not pollute the global scope
 
+const arrCont = document.getElementById("array-container")
+console.log("hey")
 
-(function() {
+function init() {
   const wheel = document.querySelector('.wheel');
   const startButton = document.querySelector('.button');
   let deg = 0;
@@ -20,7 +22,7 @@
     wheel.classList.add('blur');
 
     
-    let arrCont = document.getElementById("array-container").append("["+`${generateArray().map(obj=>JSON.stringify(obj))}`+"]")
+    arrCont.append("["+`${generateArray().map(obj=>JSON.stringify(obj))}`+"]")
   });
 
   wheel.addEventListener('transitionend', () => {
@@ -47,4 +49,6 @@
       console.log("made it out: ", rand)
     return arrays[rand]
   }
-})();
+}
+
+init()
