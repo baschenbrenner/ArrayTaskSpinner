@@ -21,7 +21,7 @@ function init() {
     // Apply the blur
     wheel.classList.add('blur');
 
-    
+    arrCont.innerHTML = ""
     arrCont.append("["+`${generateArray().map(obj=>JSON.stringify(obj))}`+"]")
   });
 
