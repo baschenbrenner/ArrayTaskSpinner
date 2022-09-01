@@ -4,7 +4,7 @@ let characters = [
     {id: 2, name: "Walter White", show: "Breaking Bad", age: 54},
     {id: 3, name: "Omar Little", show: "The Wire", age: 32},
     {id: 4, name: "Olivia Pope", show: "Scandal", age: 36},
-
+    {id: 4, name: "Jesse Pinkman", show: "Breaking Bad", age: 38},
 ]
 
 let beverages = [
@@ -36,25 +36,16 @@ let beverages = [
     { id: 14, name: 'Antman', year_created: 1962, power_source: 'Tested the Pym Particles serum on himself', weapons: ['Stinger firearm'] }
   ]
 
-  let richestPeople = [
-    { id: 1, name: "Elon Musk", net_worth: '$219,000,000,000', age: 50, country: 'USA', source: 'Tesla, SpaceX', industry: 'Automotive' },
-    { id: 2, name: "Jeff Bezos", net_worth: '$171,000,000,000', age: 58, country: 'USA', source: 'Amazon', industry: 'Technology' },
-    { id: 3, name: "Benard Arnault", net_worth: '$158,000,000,000', age: 73, country: 'France', source: 'LVMH', industry: 'Fashion and Retail' },
-    { id: 4, name: "Bill Gates", net_worth: '$129,000,000,000', age: 66, country: 'USA', source: 'Microsoft', industry: 'Technology' },
-    { id: 5, name: "Warren Buffett", net_worth: '$118,000,000,000', age: 91, country: 'USA', source: 'Berkshire Hathway', industry: 'Finance & Investments' },
-    { id: 6, name: "Larry Page", net_worth: '$111,000,000,000', age: 49, country: 'USA', source: 'Google', industry: 'Technology' },
-    { id: 7, name: "sergey Brin", net_worth: '$107,000,000,000', age: 48, country: 'USA', source: 'Google', industry: 'Technology' },
-  ]
-
+  
   let harryPotterBooks = [
-    { id: 1, title: "Harry Potter and the Sorcerer's Stone", release_date_US: '9 January, 1998' },
-    { id: 2, title: "Harry Potter and the Chamber of Secrets", release_date_US: '9 February, 1999' },
-    { id: 3, title: "Harry Potter and the Prisioner of Azkaban", release_date_US: '9 August, 1999' },
-    { id: 4, title: "Harry Potter and the Goblet of Fire", release_date_US: '8 July, 2000' },
-    { id: 5, title: "Harry Potter and the Order of Phoenix", release_date_US: '21 June, 2003' },
-    { id: 6, title: "Harry Potter and the Half-Blood Prince", release_date_US: '16 July, 2005' },
-    { id: 7, title: "Harry Potter and the Deathly Hallows", release_date_US: '21 July, 2007' },
-    { id: 8, title: "Harry Potter and the Cursed Child", release_date_US: '31 July, 2016' }
+    { id: 1, title: "Harry Potter and the Sorcerer's Stone", release_year_US: 1998 },
+    { id: 2, title: "Harry Potter and the Chamber of Secrets", release_year_US: 1999 },
+    { id: 3, title: "Harry Potter and the Prisioner of Azkaban", release_year_US: 1999 },
+    { id: 4, title: "Harry Potter and the Goblet of Fire", release_year_US: 2000 },
+    { id: 5, title: "Harry Potter and the Order of Phoenix", release_year_US: 2003 },
+    { id: 6, title: "Harry Potter and the Half-Blood Prince", release_year_US: 2005 },
+    { id: 7, title: "Harry Potter and the Deathly Hallows", release_year_US: 2007 },
+    { id: 8, title: "Harry Potter and the Cursed Child", release_year_US: 2016 }
   ]
   
   let burgers = [
@@ -68,7 +59,7 @@ let beverages = [
     { id: 8, name: "Cheeseburger", origin: 'USA', description: "The cheese is usually sliced, then added a short time before the hamburger finishes cooking to allow it to melt. In fast food restaurants, the cheese that is added to a cheeseburger is typically American cheese, but there are many other variations." },
   ]
 
-  rainbowColors = [
+  let rainbowColors = [
     { id: 1, name: "red", hex_code: '#FF0000', decimal: '255,0,0' },
     { id: 2, name: "orange", hex_code: '#FFA500', decimal: '255,165,0' },
     { id: 3, name: "yellow", hex_code: '#FFFF00', decimal: '255,255,0' },
@@ -78,17 +69,13 @@ let beverages = [
     { id: 7, name: "violet", hex_code: '#EE82EE', decimal: '238,130,238' }
   ]
 
-  wondersOfWorld = [
-    { id: 1, name: 'Taj mahal', place: 'India' },
-    { id: 2, name: 'Christ the Redeemer, Rio de Janeiro', place: 'Rio de Janerio, Brazil' },
-    { id: 3, name: 'Grat Wall of China', place: 'Beijing, China' },
-    { id: 4, name: 'Petra, Jordan', place: 'Jordan' },
-    { id: 5, name: 'Machu Picchu', place:'Peru' },
-    { id: 6, name: 'Chichen Itza', place: 'Mexico' },
-    { id: 7, name: 'Colosseum', place: 'Italy' }
+  data = [
+    { name: 'Butters', age: 3, type: 'dog' },
+    { name: 'Lizzy', age: 6, type: 'dog' },
+    { name: 'Red', age: 1, type: 'cat' },
+    { name: 'Joey', age: 3, type: 'dog' },
   ]
 
-
-  let arrays = [characters, beverages, marvelCharacters, richestPeople, harryPotterBooks, burgers, rainbowColors, wondersOfWorld]
+  let arrays = [characters, beverages, marvelCharacters, harryPotterBooks, burgers, rainbowColors, wondersOfWorld]
 
  

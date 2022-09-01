@@ -37,7 +37,7 @@ function init() {
     // Use modulus to get the rest value from 360
     const actualDeg = deg % 360;
     // Set the real rotation instantly without animation
-    console.log(actualDeg)
+    console.log(`actual degree: ${actualDeg}`)
     wheel.style.transform = `rotate(${actualDeg}deg)`;
   });
 
