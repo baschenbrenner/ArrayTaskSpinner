@@ -76,6 +76,6 @@ let beverages = [
     { name: 'Joey', age: 3, type: 'dog' },
   ]
 
-  let arrays = [characters, beverages, marvelCharacters, harryPotterBooks, burgers, rainbowColors, wondersOfWorld]
+  let arrays = [characters, beverages, marvelCharacters, harryPotterBooks, burgers, rainbowColors, data]
 
  
