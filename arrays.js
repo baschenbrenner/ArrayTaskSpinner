@@ -1,5 +1,13 @@
 
 let characters = [
+    {"forEach":"Make an unordered list with each bullet having name, show, and age separated by comma"},
+    {"forEach2": "Print the total sum of all the ages of characters on your webpage"},
+    {"map1": "Print an array of charaters name and show."},
+    {"map2": "Make a new array where each object has a an extra key as lucky number which is calculated using formula Math.floor((age/(length of first name))"},
+    {"filter1": "Filter the list of characters those who were age greater than 35"},
+    {"filter2": "Filter the list of shows where length of character name is greater than 5"},
+    {"find1": "Find a character whose length(first name)<length(last name)"},
+    {"find2": "Find a character whose age is 36"},
     {id: 1, name: "Michael Scott", show: "The Office", age: 47},
     {id: 2, name: "Walter White", show: "Breaking Bad", age: 54},
     {id: 3, name: "Omar Little", show: "The Wire", age: 32},
